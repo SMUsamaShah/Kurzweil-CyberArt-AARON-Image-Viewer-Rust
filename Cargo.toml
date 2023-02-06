@@ -1,0 +1,17 @@
+[package]
+name = "AARON-Image-Viewer"
+version = "0.1.0"
+authors = ["You <you@veryrealemail.com>"]
+edition = "2018"
+default-run = "AARON-Image-Viewer"
+resolver="2"
+
+[dependencies]
+# bevy = "0.5"
+nannou = "0.18.1"
+valora = "0.2.12"
+# raylib = "3.5" #cross build --target x86_64-pc-windows-gnu --release
+
+[[bin]]
+name = "nan"
+path = "src/nannou_main.rs"
